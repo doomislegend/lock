@@ -1,5 +1,6 @@
 :root {
-  --primary-color: #0066f9;
+  /* --primary-color: #0066f9; */
+  --primary-color: #EB5424;
   --page-background-color: #000;
   --success-color: #05b316;
   --error-color: #e5583f;
@@ -228,7 +229,7 @@
 
 .auth0-lock-social-button:active,
 .auth0-lock-social-button:focus {
-  box-shadow: 0 0 2px 0 #c9cfda;
+  /* box-shadow: 0 0 2px 0 #c9cfda; */
 }
 
 .auth0-lock-social-button:disabled {
@@ -418,7 +419,7 @@
   position: relative;
   z-index: 1;
   border-color: var(--primary-color);
-  box-shadow: inset 1px 1px 2px 0 #eff1f5, 0 0 8px 0 rgba(0, 89, 214, 0.2);
+  /* box-shadow: inset 1px 1px 2px 0 #eff1f5, 0 0 8px 0 rgba(0, 89, 214, 0.2); */
 }
 
 .auth0-lock-input:disabled {
@@ -467,6 +468,10 @@
 
 .auth0-lock-input-block:last-of-type .auth0-lock-input {
     border-radius: 0 0 3px 3px;
+}
+
+.auth0-lock-input-block:only-of-type .auth0-lock-input {
+    border-radius: 3px;
 }
 
 .auth0-lock-input-block.auth0-lock-input-email::before {
